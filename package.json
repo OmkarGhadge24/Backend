@@ -20,5 +20,10 @@
   "homepage": "https://github.com/OmkarGhadge24/Backend#readme",
   "devDependencies": {
     "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
   }
 }
