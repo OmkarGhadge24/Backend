@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/OmkarGhadge24/Backend#readme",
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "nodemon": "^1.14.10"
   },
   "dependencies": {
     "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "ejs": "^6.0.1",
     "express": "^5.2.1",
-    "express-session": "^1.19.0"
+    "express-session": "^1.19.0",
+    "morgan": "^1.12.1"
   }
 }

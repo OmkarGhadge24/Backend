@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Nova</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background: #f8f9fa;
+        color: #111827;
+      }
+      .contact {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form {
+        width: 100%;
+        max-width: 420px;
+        padding: 35px;
+        background: white;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+      }
+      h1 {
+        margin-bottom: 8px;
+      }
+      p {
+        color: #6b7280;
+        margin-bottom: 25px;
+      }
+      input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #d1d5db;
+        border-radius: 7px;
+        font-size: 14px;
+        outline: none;
+      }
+      input:focus {
+        border-color: #111827;
+      }
+      input[type="submit"] {
+        background: #111827;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="contact">
+      <form class="form" action="/contact" method="POST">
+      <!-- <form class="form" action="/contact"> -->
+        <h1>Contact Nova.</h1>
+        <p>Have something to ask? Send us a message.</p>
+        <input type="text" placeholder="Enter name" name="name" required />
+        <input type="email" placeholder="Enter email" name="email" required />
+        <input type="text" placeholder="Ask something" name="ask" required />
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+  </body>
+</html>
